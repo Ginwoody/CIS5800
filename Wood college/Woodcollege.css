@@ -1,0 +1,185 @@
+
+nav{font-family: 'Roboto Slab', serif;}
+.nav-item:hover {
+  opacity: 0.3;
+}
+.homeimg {
+  background-image: url("images/wood college.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:40rem;
+  margin-bottom:5rem;
+    
+}
+.homeimgca {
+  background-image: url("images/backOP.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:40rem;
+  margin-bottom:5rem;
+	;
+    
+}
+
+.homeimgmu {
+  background-image: url("images/Blank.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:40rem;
+  margin-bottom:5rem;
+    
+}
+.homeimgsin {
+  background-image: url(images/herosign.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:40rem;
+  margin-bottom:5rem;
+    
+}
+
+    
+	
+
+#hometext {
+	padding-left: 5rem;
+	padding-top:25rem;
+	color:white;
+	font-size:10rem;
+	font-family: 'Roboto Slab', serif;
+
+}
+#homebotton{
+	padding-left:13rem;
+	padding-top:1rem;
+}
+
+#welcome{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+}
+
+
+.container {
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+
+.image1 {
+ display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.image1:hover {
+  opacity: 0.3;
+}
+.image2 {
+
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.image2:hover {
+  opacity: 0.3;
+}
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.image3:hover {
+  opacity: 0.3;
+}
+.image10 {
+  width: 70%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+   
+	
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle:hover{opacity:1;}
+
+
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+.form-signin {
+	
+  max-width: 630px;
+  padding: 15px;
+ font-family: 'Roboto Slab', serif;
+}
+
+.form-label{
+	color:black;
+	font-weight: 900;
+}
+.form-check-label{
+	color:black;
+	font-weight: 900;
+}
+/*Canlendar*/
+
+
+
+
+@media(max-width:600px){
+	.event{
+		flex-direction:column;
+	}
+	.event .event-left{
+		padding:0;
+		border-radius:8px 8px 0 0;	
+	}
+	.event .event-left .event-date .date
+	.event .event-left .event-date .month{
+		display:inline-block;
+		font-size:24px;	
+	}
+	.event .event-left .event-date{
+		padding:10px 0;
+	}
+}
+.containerGallery .music-container .boxGa{
+	height:27rem;
+	width:90%;
+	flex-flow:colum;
+}
+.containerGallery .music-container .boxGa.imageGa {
+	height:80%;
+	width:100%;
+}
+.containerGallery .music-container .boxGa.musicGa {
+	height:80%;
+	width:100%;
+}
